@@ -1,0 +1,45 @@
+// Thread to print even numbers
+class EvenThread implements Runnable {
+    @Override
+    public void run() {
+        System.out.println("Even Numbers:");
+        for (int i = 2; i <= 20; i += 2) {
+            System.out.print(i + " ");
+            try {
+                Thread.sleep(100); // Adding a small delay for better visualization
+            } catch (InterruptedException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+        System.out.println();
+    }
+}
+
+// Thread to print odd numbers
+class OddThread implements Runnable {
+    @Override
+    public void run() {
+        System.out.println("Odd Numbers:");
+        for (int i = 1; i <= 19; i += 2) {
+            System.out.print(i + " ");
+            try {
+                Thread.sleep(100); // Adding a small delay for better visualization
+            } catch (InterruptedException e) {
+                System.out.println(e.getMessage());
+            }
+        }
+        System.out.println();
+    }
+}
+
+public class OddThread {
+    public static void main(String[] args) {
+        // Create thread objects
+        Thread evenThread = new Thread(new EvenThread());
+        Thread oddThread = new Thread(new OddThread());
+
+        // Start both threads
+        evenThread.start();
+        oddThread.start();
+    }
+}
