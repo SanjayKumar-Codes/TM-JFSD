@@ -1,0 +1,66 @@
+[
+    {
+        "id": "1",
+        "title": "The Dark Knight",
+        "poster": "http://www.talon.news/wp-content/uploads/2019/09/tdk.jpg",
+        "rating": "9.0",
+        "overview": "When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham.",
+        "reviews": []
+    },
+    {
+        "id": "2",
+        "title": "Inception",
+        "poster": "https://cdn.shopify.com/s/files/1/0037/8008/3782/products/inception_advance_SD18120_B_936708b7-aaf7-468b-b399-5c1eda7d4ff7-731214.jpg?v=1611688027",
+        "rating": "8.8",
+        "overview": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO.",
+        "reviews": []
+    },
+    {
+        "id": "3",
+        "title": "Interstellar",
+        "poster": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2021/08/19085635/gEU2QniE6E77NI6lCU6MxlNBvIx-scaled.jpg",
+        "rating": "8.6",
+        "overview": "A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
+        "reviews": []
+    },
+    {
+        "id": "4",
+        "title": "The Shawshank Redemption",
+        "poster": "https://i.pinimg.com/originals/0e/b3/82/0eb382050a259882344863ac837ab7e0.jpg",
+        "rating": "9.3",
+        "overview": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+        "reviews": []
+    },
+    {
+        "id": "5",
+        "title": "The Godfather",
+        "poster": "https://image.tmdb.org/t/p/original/d6LbJZO8ruvXgOjjGRgjtdYpJS4.jpg",
+        "rating": "9.2",
+        "overview": "An organized crime dynasty's aging patriarch transfers control of his clandestine empire to his reluctant son.",
+        "reviews": []
+    },
+    {
+        "id": "6",
+        "title": "Pulp Fiction",
+        "poster": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.9O1-EvVtz1a4L5V5OYcoggHaLH%26pid%3DApi&f=1&ipt=1849426afa433bdbc1106d5c1d935e0fe5aad0dbba88a211cd5a88a6199741e3&ipo=images",
+        "rating": "8.9",
+        "overview": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+        "reviews": []
+    },
+    {
+        "id": "7",
+        "title": "The Lord of the Rings: The Return of the King",
+        "poster": "https://image.tmdb.org/t/p/w500/8hP9g8g8g8g8g8g8g8g8g8g8g.jpg",
+        "rating": "8.9",
+        "overview": "Gandalf and Aragorn lead the World of Men against Sauron's army to save Middle-earth.",
+        "reviews": []
+    },
+    {
+        "id": "8",
+        "title": "Forrest Gump",
+        "poster": "https://image.tmdb.org/t/p/w500/8hP9g8g8g8g8g8g8g8g8g8g8g.jpg",
+        "rating": "8.8",
+        "overview": "The presidencies of Kennedy and Johnson, the Vietnam War, the Watergate scandal and other historical events unfold through the perspective of an Alabama man with an IQ of 75.",
+        "reviews": []
+    }
+]

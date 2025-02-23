@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Reviews</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movie-details.html">Movie Details</a></li>
+                <li><a href="search-results.html">Search Results</a></li>
+                <li><a href="user-reviews.html">User  Reviews</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="hero">
+            <h1>Welcome to Movie Reviews</h1>
+            <p>Explore the latest movies and read user reviews.</p>
+            <input type="text" id="search-input" placeholder="Search for a movie...">
+            <button id="search-button">Search</button>
+        </section>
+        <section id="movie-list">
+            <h2>Featured Movies</h2>
+            <div id="movies-container">
+                <!-- Movie cards will be dynamically generated here -->
+            </div>
+            <button id="next-button">Next Movie</button>
+        </section>
+    </main>
+
+    <!-- Review Popup -->
+    <div id="review-popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2>Write a Review</h2>
+            <div>
+                <label for="rating">Rating:</label>
+                <select id="rating">
+                    <option value="1">1 Star</option>
+                    <option value="2">2 Stars</option>
+                    <option value="3">3 Stars</option>
+                    <option value="4">4 Stars</option>
+                    <option value="5">5 Stars</option>
+                </select>
+            </div>
+            <div>
+                <label for="comment">Comment:</label>
+                <textarea id="comment" rows="4" placeholder="Write your review here..."></textarea>
+            </div>
+            <button id="submit-review">Submit Review</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
