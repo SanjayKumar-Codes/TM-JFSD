@@ -1,0 +1,23 @@
+[
+    { "id": 1, "name": "Masala Dosa", "description": "Crispy rice crepe filled with spiced potato masala.", "price": 3.99, "image": "/assets/masala_dosa.jpg" },
+    { "id": 2, "name": "Idli", "description": "Steamed rice cakes served with sambar and chutney.", "price": 2.49, "image": "/assets/idli.jpg" },
+    { "id": 3, "name": "Vada", "description": "Savory fried lentil doughnuts, crispy on the outside.", "price": 2.99, "image": "/assets/vada.jpg" },
+    { "id": 4, "name": "Uttapam", "description": "Thick rice pancake topped with onions, tomatoes, and chilies.", "price": 4.49, "image": "/assets/uttapam.jpg" },
+    { "id": 5, "name": "Pongal", "description": "Comforting rice and lentil dish flavored with black pepper and ghee.", "price": 3.99, "image": "/assets/pongal.jpg" },
+    { "id": 6, "name": "Bisi Bele Bath", "description": "Spiced rice and lentil dish with vegetables.", "price": 5.49, "image": "/assets/bisi_bele_bath.jpg" },
+    { "id": 7, "name": "Appam", "description": "Soft rice pancakes served with coconut milk or stew.", "price": 3.99, "image": "/assets/appam.jpg" },
+    { "id": 8, "name": "Puttu", "description": "Steamed rice flour and coconut cylinders, served with curry.", "price": 3.49, "image": "/assets/puttu.jpg" },
+    { "id": 9, "name": "Chettinad Chicken Curry", "description": "Spicy chicken curry with aromatic Chettinad spices.", "price": 7.99, "image": "/assets/chettinad_chicken.jpg" },
+    { "id": 10, "name": "Kerala Parotta", "description": "Flaky layered flatbread, perfect with curries.", "price": 2.99, "image": "/assets/kerala_parotta.jpg" },
+    { "id": 11, "name": "Fish Moilee", "description": "Mildly spiced coconut milk-based fish curry.", "price": 8.99, "image": "/assets/fish_moilee.jpg" },
+    { "id": 12, "name": "Rasam", "description": "Tangy and spicy tamarind soup with spices.", "price": 2.49, "image": "/assets/rasam.jpg" },
+    { "id": 13, "name": "Sambar", "description": "Lentil-based vegetable stew with tamarind and spices.", "price": 3.49, "image": "/assets/sambar.jpg" },
+    { "id": 14, "name": "Coconut Chutney", "description": "Creamy chutney made with fresh coconut and spices.", "price": 1.99, "image": "/assets/coconut_chutney.jpg" },
+    { "id": 15, "name": "Chicken 65", "description": "Spicy deep-fried chicken with curry leaves.", "price": 6.99, "image": "/assets/chicken_65.jpg" },
+    { "id": 16, "name": "Mutton Sukka", "description": "Dry mutton dish cooked with spices and coconut.", "price": 9.99, "image": "/assets/mutton_sukka.jpg" },
+    { "id": 17, "name": "Kootu", "description": "Vegetable and lentil curry with coconut and spices.", "price": 4.49, "image": "/assets/kootu.jpg" },
+    { "id": 18, "name": "Avial", "description": "Mixed vegetable curry with coconut and yogurt.", "price": 4.99, "image": "/assets/avial.jpg" },
+    { "id": 19, "name": "Payasam", "description": "Sweet dessert made with milk, rice, and jaggery.", "price": 3.99, "image": "/assets/payasam.jpg" },
+    { "id": 20, "name": "Banana Chips", "description": "Crispy fried banana slices, a popular snack.", "price": 2.49, "image": "/assets/banana_chips.jpg" }
+  ]
+  
