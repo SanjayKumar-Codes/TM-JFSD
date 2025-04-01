@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/news_model.dart';
 
 class ApiService {
-  static const String apiKey = "pub_74461fd52fae65627963a2d474894860582c1";
+  static const String apiKey = "YOUR_API_KEY";
   static const String baseUrl = "https://newsdata.io/api/1/latest";
 
   Future<List<News>> fetchNews({String? category, String? country, String? keyword}) async {
