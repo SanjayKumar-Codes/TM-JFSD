@@ -1,0 +1,24 @@
+<sly data-sly-use.clientlib="core/wcm/components/commons/v1/templates/clientlib.html">
+    <sly data-sly-call="${clientlib.all @ categories='myTraining.newsComponent', async=true}"/>
+</sly>
+
+
+<div class="news-component" data-sly-use.newsModel="com.myTraining.core.models.News">
+
+    <div class="cmp-news-title">
+        <h1>${newsModel.newsHeadline}</h1>
+    </div>
+    <div>
+        <img class="cmp-news-image" src="${newsModel.newsImg}" alt="${newsModel.title}"  width="auto" height="400">
+    </div>
+<div class="cmp-news-artile-detail">
+    <p>News Published on: ${'dd MMMM, YYYY' @ format=newsModel.newsPublishDate,type='datetime'}</p>
+    <p> ${newsModel.newsDetail @ context='html'}</p>
+</div>
+
+    <div data-sly-list.item="${newsModel.newsTitle}">
+        <p>${item}</p>
+    </div>
+
+    </div>
+</div>

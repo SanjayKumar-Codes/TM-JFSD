@@ -1,0 +1,10 @@
+{
+  testList
+  {
+    items
+    {
+      firstName
+      lastName
+    }
+  }
+}
